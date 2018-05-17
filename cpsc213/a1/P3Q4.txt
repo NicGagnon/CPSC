@@ -1,0 +1,13 @@
+java HelloWorld 521829
+hexadecimal representation: 0x7f665
+
+java HelloWorld -2207359
+decimal representation: -2207359
+
+Decimal   521829, Hexadecimal 0x0007f665
+Decimal -2207359, Hexadecimal 0xffde5181
+
+The DF-224 used by NASE worked in Big Endianess, while the Intel core i7 processor stores information in Little Endianess. This means we just have to switch the endianess.
+
+Right Ascension: 0x65f60700
+Declination: 0x8151deff

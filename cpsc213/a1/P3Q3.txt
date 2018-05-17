@@ -1,0 +1,2 @@
+0x01020201
+Generalized case: Sort of palindromic (not sure if thats a word) pattern will be read byte-by-byte forward and backwards (i.e. A B C D C D A B)
