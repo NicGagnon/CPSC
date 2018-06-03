@@ -1,0 +1,1 @@
+The dangling pointer occurs when you free(e) in the pop() function and leave the e pointer pointing at the memory space that used to be e. 

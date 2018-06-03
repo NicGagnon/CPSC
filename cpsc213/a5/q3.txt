@@ -1,0 +1,3 @@
+The problem was that the tree elements pointed to the same place as the list elements. Thus, when you deleted the list elements, you prevented the tree from accessing those elements and caused a dangling pointer. In order to fix this, we need to implement a ref counting function.
+
+The easiest way to see this is to comment out the free(e->value) on line 71 (might be different since I'm writing this after fixing the bug), in the list_delete_element() function in the list.c. This allows the tree to access the elements and read the values, but now all the even-indexed elements are not being freed. 

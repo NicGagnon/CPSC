@@ -1,0 +1,15 @@
+Line 1 : Read address stored at a 
+	 Read address stored at x
+	 Read the value of i
+	 Read the value stored at x[i]
+	 Write a->x[i] to v0
+Line 2:  Read the value stored at a->b.y[i]
+	 Write value a->b.y[i] to v1
+Line 3:  Read address stored at a->b.a
+	 Read address stored at a->b.a.x
+	 Read the value stored at a->b.a-x[i]
+	 Write the value a->b.a->x[i] to v2
+Line 4:  No Read
+	 Write the address of a to a->b.a
+Line 5:  No Read
+	 Write the value a->b.a->b.y[i] to v3   
