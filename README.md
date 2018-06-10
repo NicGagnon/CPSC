@@ -1,3 +1,3 @@
 # CPSC
-Computer Science Assignments and Projects from UBC
-- CPSC 213
+Computer Science Assignments
+- Introduction to Computer Systems
