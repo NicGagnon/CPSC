@@ -1,0 +1,6 @@
+time real 0m0.131s  - sRead 10 - 207
+time real 0m1.118s  - sRead 100 - 1644
+time real 0m10.947s - sRead 1000 - 16193
+
+
+Time growth is linearly increasing as we provide sRead with more blocks to read from. This the CPU is waiting for the return data to run sum on, then it makes tsense that real time is linearly proportional to the number of blocks passed.

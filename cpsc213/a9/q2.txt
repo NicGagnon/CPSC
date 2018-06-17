@@ -1,0 +1,10 @@
+time real 0m0.131s  - sRead 10
+time real 0m0.016s  - aRead 10
+
+time real 0m1.118s  - sRead 100
+time real 0m0.017s  - aRead 100
+
+time real 0m10.947s - sRead 1000
+time real 0m0.016s  - aRead 1000
+
+The difference in time arises from the way in which the CPU is fetching the data. While the first option, (sRead), the CPU waits for disk to transfer the data, aRead goes off and request more data while its waiting for the data to be transfered to memory. This also explains the little difference between number of blocks read since data transfer is no longer the limiting factor and summation is an extremely quick process.  

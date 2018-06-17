@@ -1,0 +1,16 @@
+time real 0m0.131s  - sRead 10
+time real 0m0.016s  - aRead 10
+time real 0m0.017s  - tRead 10
+
+time real 0m1.118s  - sRead 100
+time real 0m0.017s  - aRead 100
+time real 0m0.026s  - tRead 100
+
+time real 0m10.947s - sRead 1000
+time real 0m0.016s  - aRead 1000
+time real 0m0.098s  - tRead 1000
+
+time sys  0m0.005s  - sRead 1000
+time sys  0m0.081s  - tRead 1000
+
+There was an increase in system run time due to the two for loops we had to implement vs the single for loop in the asynchronous. Otherwise, they have very similar real time performance.
